@@ -37,3 +37,6 @@ cacheSolve <- function(x, ...) {
     x$setinverse(m)
     m
 }
+
+## This can be tested by calling the cacheSolve twice.  First time, it will create the matrix and its inverse.
+## Second time, cacheSolve will use the cached inverse matrix.
